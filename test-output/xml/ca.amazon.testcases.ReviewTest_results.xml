@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="69.582">
+    <properties></properties>
+
+
+
+            <testcase
+                name="ReviewLogin"
+                time="10.565"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="ReviewCheckReview"
+                time="27.871"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="ReviewPage"
+                time="9.886"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="ReviewScrollDown"
+                time="5.987"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="ReviewSubmit"
+                time="2.179"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="ReviewSearchProduct"
+                time="0.553"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+            <testcase
+                name="Close_Browser"
+                time="12.541"
+                classname="ca.amazon.testcases.ReviewTest">
+            </testcase>
+</testsuite>

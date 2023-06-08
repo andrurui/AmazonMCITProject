@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="56.774">
+    <properties></properties>
+
+
+
+            <testcase
+                name="RecommendedSelectionCart"
+                time="9.928"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="RecommendationProduct"
+                time="8.428"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="RecommendationLogin"
+                time="14.557"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="Close_Browser"
+                time="10.725"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="RecommendationScrollDown"
+                time="3.163"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="RecommendedSelectProduct"
+                time="3.389"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+            <testcase
+                name="RecommendedSelectQtn"
+                time="6.584"
+                classname="ca.amazon.testcases.Recommendation">
+            </testcase>
+</testsuite>

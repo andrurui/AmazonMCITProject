@@ -1,0 +1,20 @@
+18:54:14,096 DEBUG freemarker.cache<strong>{1}</strong>:44 - Couldn't find template in cache for "index.ftl"("en_CA", UTF-8, parsed); will try to load it.
+18:54:14,096 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("index_en_CA.ftl"): Not found
+18:54:14,096 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+18:54:14,096 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("index.ftl"): Found
+18:54:14,096 DEBUG freemarker.cache<strong>{1}</strong>:44 - Loading template for "index.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Singh/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar!/org/uncommons/reportng/templates/html/index.ftl"
+18:54:14,362 DEBUG freemarker.cache<strong>{1}</strong>:44 - Couldn't find template in cache for "results.ftl"("en_CA", UTF-8, parsed); will try to load it.
+18:54:14,377 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results_en_CA.ftl"): Not found
+18:54:14,377 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results_en.ftl"): Not found
+18:54:14,377 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results.ftl"): Found
+18:54:14,377 DEBUG freemarker.cache<strong>{1}</strong>:44 - Loading template for "results.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Singh/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar!/org/uncommons/reportng/templates/html/results.ftl"
+18:54:14,409 DEBUG freemarker.cache<strong>{1}</strong>:44 - Couldn't find template in cache for "class-results.ftl"("en_CA", UTF-8, parsed); will try to load it.
+18:54:14,409 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("class-results_en_CA.ftl"): Not found
+18:54:14,409 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("class-results_en.ftl"): Not found
+18:54:14,409 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("class-results.ftl"): Found
+18:54:14,409 DEBUG freemarker.cache<strong>{1}</strong>:44 - Loading template for "class-results.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Singh/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar!/org/uncommons/reportng/templates/html/class-results.ftl"
+18:54:14,488 DEBUG freemarker.cache<strong>{1}</strong>:44 - Couldn't find template in cache for "results.ftl"("en_CA", UTF-8, parsed); will try to load it.
+18:54:14,488 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results_en_CA.ftl"): Not found
+18:54:14,488 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results_en.ftl"): Not found
+18:54:14,488 DEBUG freemarker.cache<strong>{1}</strong>:44 - TemplateLoader.findTemplateSource("results.ftl"): Found
+18:54:14,488 DEBUG freemarker.cache<strong>{1}</strong>:44 - Loading template for "results.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Singh/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar!/org/uncommons/reportng/templates/xml/results.ftl"

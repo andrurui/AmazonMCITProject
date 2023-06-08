@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.150">
+    <properties></properties>
+
+
+
+            <testcase
+                name="CustomerServiceSelectOrder"
+                time="23.370"
+                classname="ca.amazon.testcases.CustomerService">
+            </testcase>
+            <testcase
+                name="CustomerServiceUserAccount"
+                time="5.652"
+                classname="ca.amazon.testcases.CustomerService">
+            </testcase>
+            <testcase
+                name="CustomerServiceorderProfile"
+                time="5.679"
+                classname="ca.amazon.testcases.CustomerService">
+            </testcase>
+            <testcase
+                name="CloseBrowser"
+                time="7.436"
+                classname="ca.amazon.testcases.CustomerService">
+            </testcase>
+            <testcase
+                name="CustomerServiceLogin"
+                time="13.013"
+                classname="ca.amazon.testcases.CustomerService">
+            </testcase>
+</testsuite>

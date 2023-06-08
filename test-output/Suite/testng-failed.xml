@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CustomerService(failed)">
+    <classes>
+      <class name="ca.amazon.testcases.CustomerService">
+        <methods>
+          <include name="CustomerServiceSetUp"/>
+          <include name="CustomerServiceLogin"/>
+        </methods>
+      </class> <!-- ca.amazon.testcases.CustomerService -->
+    </classes>
+  </test> <!-- CustomerService(failed) -->
+  <test thread-count="5" name="Recommendation(failed)">
+    <classes>
+      <class name="ca.amazon.testcases.Recommendation">
+        <methods>
+          <include name="RecommendationLogin"/>
+          <include name="RecommendationProduct"/>
+          <include name="RecommendationScrollDown"/>
+          <include name="Close_Browser"/>
+          <include name="RecommendedSelectQtn"/>
+          <include name="RecommendedSelectProduct"/>
+          <include name="RecommendationSetUp"/>
+        </methods>
+      </class> <!-- ca.amazon.testcases.Recommendation -->
+    </classes>
+  </test> <!-- Recommendation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
