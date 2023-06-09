@@ -1,0 +1,72 @@
+package amazon_package;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Amazon_Best_Sellers {
+
+    private WebDriver driver;
+
+    @BeforeMethod
+    public void setUp() {
+        // Set the path to the ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "/Users/andresruizcruz/Downloads/chromedriver_mac_arm64/chromedriver");
+
+        // Create a new instance of the ChromeDriver
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+    }
+
+    @Test
+    public void verifyBestSellersPageDisplayed() throws InterruptedException {
+        // Navigate to Amazon.ca
+        driver.get("https://www.amazon.ca/");
+        Thread.sleep(10);
+
+        // Find the "Best Sellers" link and click it
+        WebElement bestSellersLink = driver.findElement(By.linkText("Best Sellers"));
+        bestSellersLink.click();
+
+        // Verify that the Best Sellers page is displayed
+        String pageTitle = driver.getTitle();
+        Assert.assertTrue(pageTitle.contains("Best Sellers"), "Best Sellers page is displayed");
+    }
+
+    @Test
+    public void addProductToCartFromBestSellers() throws InterruptedException {
+        // Navigate to Amazon.ca
+        driver.get("https://www.amazon.ca/");
+        Thread.sleep(10);
+
+        // Find the "Best Sellers" link and click it
+        WebElement bestSellersLink = driver.findElement(By.linkText("Best Sellers"));
+        bestSellersLink.click();
+
+        // Find the first product in the list and click on its title
+        WebElement firstProductTitle = driver.findElement(By.xpath("//*[@id=\"anonCarousel1\"]/ol/li[1]/div[2]"));
+        String productTitle = firstProductTitle.getText();
+        firstProductTitle.click();
+
+        // Find the "Add to Cart" button and click it
+        WebElement addToCartButton = driver.findElement(By.id("submit.add-to-cart-announce"));
+        addToCartButton.click();
+
+        // Verify that the product is added to the shopping cart
+        WebElement cartCount = driver.findElement(By.id("nav-cart"));
+        String cartItemCount = cartCount.getText();
+        Assert.assertEquals(cartItemCount, "1", "Product is added to the shopping cart");
+    }
+
+
+    //@AfterMethod
+    public void tearDown() {
+        // Close the browser
+        driver.quit();
+    }
+}
